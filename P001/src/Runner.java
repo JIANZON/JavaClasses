@@ -1,9 +1,10 @@
 
-public class Helloer02 {
+public class Runner {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("I'm a helloer.");
+		Helloer helloer = new Helloer();
+		helloer.sayHello();
 	}
 
 }
